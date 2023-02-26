@@ -25,7 +25,7 @@ $( document ).ready(function() {
   setTimeout(() => {
     preloader.style.display='none';
 
-  }, 3000);
+  }, 6000);
 
 });
 
