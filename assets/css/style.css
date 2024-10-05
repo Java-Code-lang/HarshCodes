@@ -1531,4 +1531,45 @@ font-weight:bold;
         background-color: #5e5e5e; /* Add a dark-grey background on hover */
       }
     
- 
+     
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .skill-category {
+        background: #e9ecef;
+        border-radius: 6px;
+        padding: 15px;
+    }
+    
+    .skill-category h2 {
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 5px 0;
+        color: #555;
+    }
+    
+    .certifications {
+        background: #ffeeba;
+        border-radius: 6px;
+        padding: 15px;
+    }
+    
+    .certifications h2 {
+        color: #856404;
+    }
