@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh Deep | Python Developer & Tech Enthusiast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script defer src="script.js"></script>
+ <script defer src="ai.js"></script>
+
+
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="header-content">
+      <h1>Harsh Deep</h1>
+      <p>Junior Python Developer</p>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <img src="./Images/Profile_Pic2.png" alt="Harsh Deep" class="profile-pic" />
+      <h2>Harsh Deep</h2>
+      <p class="role">Python Developer & Tech Enthusiast</p>
+      <span class="sidebar-toggle"><i class="fas fa-bars"></i></span>
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link active" aria-current="page">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#hire-me" class="nav-link">Hire Me</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <footer class="sidebar-footer">
+        <p>© 2025 Harsh Deep</p>
+      </footer>
+    </aside>
+
+    <main class="content">
+      <section id="about" class="section about animate-slide-in">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="video-3d-container">
+            <video autoplay loop muted playsinline aria-label="Introductory video">
+              <source src="Images/Intro.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="about-text">
+            I'm Harsh Deep, a passionate developer specializing in Python, automation, and web technologies. With a Diploma in Computer Science from <strong>Sheridan College, Canada</strong>, I bring hands-on experience in CRM systems, scripting, and full-stack development. I'm eager to contribute to innovative projects in remote or junior developer roles.
+          </p>
+          <div class="location-3d">
+            <p>
+              <strong>Location:</strong> Based in
+              <span class="highlight-country">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India Flag" style="width:20px; height:auto; vertical-align:middle; margin-right:5px;">
+                India
+              </span>, with global experience in Canada & USA.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section education-section animate-slide-in">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="main-cards-container">
+          <div class="education-flip-card neon-gradient-card" id="canada-main" role="button" aria-label="View Canada Studies">
+            <div class="front">
+              <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+              <div>Canada Studies<br>Higher Education</div>
+            </div>
+          </div>
+          <div class="education-flip-card neon-gradient-card" id="secondary-main" role="button" aria-label="View Secondary Education">
+            <div class="front">
+              <div class="icon"><i class="fas fa-book"></i></div>
+              <div>Secondary Education<br>India (Roots)</div>
+            </div>
+          </div>
+        </div>
+        <div id="expanded-container"></div>
+        <div id="back-button-container" style="display:none;">
+          <button id="back-button" aria-label="Back to Education">← Back</button>
+        </div>
+        <div id="image-overlay" class="overlay">
+          <span id="overlay-close" role="button" aria-label="Close image overlay">&times;</span>
+          <img id="overlay-img" src="" alt="Expanded View">
+        </div>
+      </section>
+
+      <section id="experience" class="section timeline animate-slide-in">
+        <h2>My Journey</h2>
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+          <div class="timeline-point" data-year="2024" data-title="IT Help Desk – Wings Freightway Inc (Canada)"
+               data-description="Provided technical support to 100+ employees, resolving hardware/software issues.||Managed access systems and network permissions with zero security breaches.||Led software updates, reducing downtime by 30%.||Trained new hires on IT protocols.||Proactively monitored systems for seamless operations.">
+            <div class="point"><span class="year">2024</span></div>
+          </div>
+          <div class="timeline-point" data-year="2022" data-title="IT Manager – Go Green Solar (India)"
+               data-description="Built a custom CRM system, boosting efficiency.||Developed a responsive website with dashboards.||Created an Android app for field operations.||Optimized IT workflows, reducing downtime by 25%.||Led a team of 5 IT staff.||Monitored infrastructure for seamless operations.">
+            <div class="point"><span class="year">2022</span></div>
+          </div>
+          <div class="timeline-point" data-year="2021" data-title="App Developer Intern – DS Vistas Global"
+               data-description="Redesigned website for better UX and load times.||Developed a management app for operations.||Integrated backend APIs for real-time updates.||Collaborated with senior developers on coding practices.||Tested and debugged applications.||Presented project progress to management.">
+            <div class="point"><span class="year">2021</span></div>
+          </div>
+          <div class="timeline-point" data-year="2021" data-title="Freelancer – Remote Tech Projects"
+               data-description="Delivered apps using Python, C#, and Android.||Developed IoT solutions for automation.||Implemented real-time data processing and analytics.||Optimized code for scalability.||Collaborated with remote clients.||Provided post-deployment support.">
+            <div class="point"><span class="year">2021</span></div>
+          </div>
+        </div>
+        <div class="timeline-details" id="timeline-details">
+          <h3 id="timeline-title"></h3>
+          <p id="timeline-description"></p>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills animate-slide-in">
+        <h2>Technical Skills</h2>
+        <div class="skill-cards">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-python"></i>
+                <h3>Languages</h3>
+              </div>
+              <div class="card-back">
+                <ul>
+                  <li><i class="fab fa-python"></i> Python</li>
+                  <li><i class="fas fa-code"></i> C#</li>
+                  <li><i class="fab fa-java"></i> Java (basic)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-html5"></i>
+                <h3>Frontend</h3>
+              </div>
+              <div class="card-back">
+                <ul>
+                  <li><i class="fab fa-html5"></i> HTML</li>
+                  <li><i class="fab fa-css3-alt"></i> CSS</li>
+                  <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-node"></i>
+                <h3>Backend</h3>
+              </div>
+              <div class="card-back">
+                <ul>
+                  <li><i class="fas fa-flask"></i> Flask</li>
+                  <li><i class="fas fa-database"></i> SQL</li>
+                  <li><i class="fab fa-git-alt"></i> Git</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fab fa-android"></i>
+                <h3>Tools</h3>
+              </div>
+              <div class="card-back">
+                <ul>
+                  <li><i class="fab fa-android"></i> Android Studio</li>
+                  <li><i class="fas fa-laptop-code"></i> Visual Studio</li>
+                  <li><i class="fas fa-headset"></i> CRM Platforms</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <i class="fas fa-users"></i>
+                <h3>Soft Skills</h3>
+              </div>
+              <div class="card-back">
+                <ul>
+                  <li><i class="fas fa-headset"></i> Remote Support</li>
+                  <li><i class="fas fa-users"></i> Team Collaboration</li>
+                  <li><i class="fas fa-file-alt"></i> Documentation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hire-me" class="section hire-me animate-slide-in">
+        <h2 class="glass-polished-text">Ready to Elevate Your Team</h2>
+        <div class="skills-container">
+          <div class="hire-me-card">English Fluency: IELTS 8.0</div>
+          <div class="hire-me-card">Global Experience: Canada & USA</div>
+          <div class="hire-me-card">Customer Support: Voice & Email</div>
+          <div class="hire-me-card">CRM Expertise: Zoho, HubSpot</div>
+          <div class="hire-me-card">Tech Helpdesk: Windows/Mac</div>
+          <div class="hire-me-card">Communication: Call Etiquette</div>
+          <div class="hire-me-card">Data Entry: Fast & Accurate</div>
+          <div class="hire-me-card">Flexible Hours: 24/7 Availability</div>
+          <div class="hire-me-card">Tech Stack: Python, C#, Flask, SQL</div>
+          <div class="hire-me-card">Lead Generation: Cold Calling</div>
+        </div>
+      </section>
+
+      <section id="ai-learning" class="section ai-learning-section animate-slide-in">
+        <h2 class="animated-headline">
+          <span>Upskilling</span> <span>in</span> <span>AI</span> <span>&</span> <span>MLOps</span>
+        </h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><i class="fab fa-python"></i> Python & Data Analysis</div>
+            <div class="swiper-slide"><i class="fas fa-robot"></i> Machine Learning</div>
+            <div class="swiper-slide"><i class="fas fa-brain"></i> Deep Learning</div>
+            <div class="swiper-slide"><i class="fas fa-cogs"></i> MLOps & Deployment</div>
+            <div class="swiper-slide"><i class="fas fa-database"></i> Data Engineering</div>
+            <div class="swiper-slide"><i class="fab fa-aws"></i> Cloud (AWS, GCP)</div>
+            <div class="swiper-slide"><i class="fas fa-language"></i> NLP</div>
+            <div class="swiper-slide"><i class="fas fa-eye"></i> Computer Vision</div>
+            <div class="swiper-slide"><i class="fas fa-scale-balanced"></i> AI Ethics</div>
+            <div class="swiper-slide"><i class="fas fa-code"></i> Automation</div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section animate-slide-in">
+        <h2 class="contact-title">Let's Connect</h2>
+        <div class="glass-contact-container">
+          <div class="contact-box">
+            <h3>Email Me</h3>
+            <input type="text" id="emailName" placeholder="Your Name" class="glass-input" aria-label="Your Name" />
+            <textarea id="emailMessage" rows="4" placeholder="Your Message" class="glass-input" aria-label="Your Message"></textarea>
+            <button id="email-btn" class="glass-button"><i class="fas fa-envelope"></i> Send Email</button>
+          </div>
+          <div class="contact-box">
+            <h3>WhatsApp Me</h3>
+            <input type="text" id="whatsappName" placeholder="Your Name" class="glass-input" aria-label="Your Name" />
+            <textarea id="whatsappMessage" rows="4" placeholder="Your WhatsApp Message" class="glass-input" aria-label="Your WhatsApp Message"></textarea>
+            <button id="whatsapp-btn" class="glass-button whatsapp-btn"><i class="fab fa-whatsapp"></i> Send WhatsApp</button>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/harsh_tech_trek/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:freecoding100@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://wa.me/+917009349232" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </section>
+
+
+        <div id="ai-chatbot" class="chatbot-container minimized">
+    <div class="chat-header">
+      <div class="bot-avatar">
+        <img src="Images/Profile_Pic2.png" alt="Harsh Avatar">
+      </div>
+      <span class="bot-title">Ask Me</span>
+      <span class="chat-toggle"><i class="fas fa-times"></i></span>
+    </div>
+    <div class="chat-body"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Ask about my skills..." aria-label="Chat input">
+      <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+      
+    </main>
+  </div>
+</body>
+</html>
